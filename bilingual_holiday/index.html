@@ -1,9 +1,26 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+	<meta charset="utf-8">
+	<title>Bilingual Holiday Card App</title>
+	<link rel='stylesheet' type='text/css' href='main.css'>
 </head>
 <body>
-<div> this is a Bilingual Holiday translater card</div>
+
+	<textarea id="takesEnglish">Enter your message here!</textarea><br />
+	<label for="languages">Language:</label>
+  <input id='languages' list='languages_list' name='languages' placeholder='Choose a Language' />
+  <datalist id="languages_list">
+    <option value='Spanish'>
+    <option value='German'>
+  </datalist><br />
+<button id="translateButton">Translate<button>
+<div id="outputTranslatedMsg">Output goes here</div>
+
+<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="main.js"></script>
+<script src="js_german.js"></script>
+<script src="js_spanish.js"></script>
+
 </body>
 </html>

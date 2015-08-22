@@ -1,4 +1,4 @@
-var German = (function(greeting) {
+var Spanish = (function(greeting) {
 
 
 return {
