@@ -1,8 +1,19 @@
+
 * {
-  text-align: center;
-  margin: 15px;
+	text-align: center;
+	font-family: Avenir, sans-serif;
+}
+
+button {
+	margin-top: 25px;
+	margin-bottom: 25px;
 }
 
 body {
 	background-color: turquoise;
+}
+
+.language_wrapper {
+	margin-top: 25px;
+	margin-bottom: 25px;
 }
